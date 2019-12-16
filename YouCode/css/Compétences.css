@@ -1,0 +1,188 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+    
+    nav ul{
+        top: 0%;
+        position: fixed;
+        list-style: none;
+        display: flex;
+        background-color: black;
+        width: 100%;
+        z-index: 5;
+    }
+    
+    Nav li
+    {
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom:16px ;
+        font-family: 'Montserrat', sans-serif;
+        color: whitesmoke;
+        font-size:14px;
+        font-weight: bold;
+        line-height: 24px;
+    }
+
+    nav li:hover
+    {
+        color:rgb(51, 122, 183) ;
+    }
+
+    .logo
+    {
+        padding: 8px 60px 8px 60px;
+    }
+    .bg
+    {
+        background-image: url(../images/Untitled.png);
+        height: 90%;
+        width: 90%;
+        margin-top:80px;
+        /* margin-left: 20%; */
+        background-size: cover;
+        /* position: fixed; */
+        /* z-index: -10; */
+    }
+
+    .leftNav{
+        list-style: none;
+        margin-top: 60px;
+        /* height: 100%; */
+        width: 20%;
+        background-color: rgb(0, 138, 255);
+        opacity: 1;
+
+    }
+    
+    .leftNav li
+    {
+        padding: 8 16 16 0;
+    }
+
+    .leftNav a
+    {
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+    .leftNav li img
+    {
+        padding: 0 0 0 16;
+        padding-right: 16px;  
+    }
+    /* .imgProfil
+    {
+        display: flex;
+    }
+    .imgProfil p
+    {
+        padding-left: 42px;
+        padding-top:16px ;
+    } */
+
+    .blankspace
+    {
+        height: 48px;
+    }
+    .title
+    {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        margin-left: 100px;
+    }
+    .Compétence
+    {
+        display: flex;
+        height: 170px;
+        width: 720px;
+        /* border: 1px solid rgb(119, 119, 119); */
+        border-radius: 16px;
+        box-shadow: 8px 8px 8px 8px rgb(119, 119, 119, 0.5);
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .titlebox
+    {
+        height: 150px;
+        width: 200px;
+        border: 1px solid rgb(119, 119, 119, 0);
+        box-shadow: 2px 2px 2px 2px rgb(119, 119, 119, 0.5);
+        border-radius: 16px;
+        margin-left: 8px;
+        margin-top: 8px;
+    }
+    .titlebox p
+    {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(0, 138, 255);
+        font-size: 24px;
+        text-align: left;
+        margin-left: 4px;
+        margin-top: 8px;
+    }
+    
+    .levels
+    {
+        display: flex;
+        margin: 24px 0 0 48px;
+    }
+    .levels div
+    {
+        padding: 0 32px 0 0;
+    }
+    
+
+
+
+
+
+
+
+
+
+.bgfooter
+{
+    background-color: black;
+}
+.footer
+{
+    display: flex;
+}
+.contactez p
+{
+    color: rgb(119, 119, 119);
+    font: 16px sans-serif;
+    letter-spacing: 0.08em;
+    padding: 8px 0px 0px 32px;
+    
+}
+
+.youcode
+{
+    padding: 24px 200px 0 350px;
+    color: rgb(119, 119, 119);
+    font:  15px sans-serif;
+    letter-spacing: 0.08em;
+}
+.suivez
+{
+    color:rgb(119, 119, 119);
+    font: 16px sans-serif;
+    letter-spacing: 0.08em;
+    padding: 8px  16px 8px 16px;
+}
+footer ul
+{   
+    display: flex;
+    list-style: none;
+    float: right;
+    bottom: 0;
+}
+
+footer ul li
+{
+    padding:8px;
+}

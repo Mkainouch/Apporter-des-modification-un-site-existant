@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+    
+    nav ul{
+        top: 0%;
+        position: fixed;
+        list-style: none;
+        display: flex;
+        background-color: black;
+        width: 100%;
+        z-index: 5;
+    }
+    
+    .topNav li
+    {
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom:16px ;
+        font-family: 'Montserrat', sans-serif;
+        color: whitesmoke;
+        font-size:14px;
+        font-weight: bold;
+        line-height: 24px;
+    }
+
+    .topNav li:hover
+    {
+        color:rgb(51, 122, 183) ;
+    }
+
+    .logo
+    {
+        padding: 8px 60px 8px 60px;
+    }
+    
+    .bg
+    {
+        height: 650px;
+        width: 1000px; 
+        background-image: url(../images/Untitled.png);
+        margin-top:80px;
+        /* margin-left: 20%; */
+        background-size: cover;
+        /* position: fixed; */
+        /* z-index: -10; */
+    }
+
+    .leftNav{
+        list-style: none;
+        margin-top: 60px;
+        height: 100%;
+        width: 20%;
+        background-color: rgb(0, 138, 255);
+    }
+    
+    .leftNav li
+    {
+        padding: 16 16 16 0;
+       
+    }
+    .leftNav a
+    {
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+    .leftNav li img
+    {
+        padding: 0 0 0 16;
+        padding-right: 16px;  
+    }
+    .imgProfil
+    {
+        display: flex;
+    }
+    .imgProfil p
+    {
+        padding-left: 16px;
+        padding-top:16px ;
+    }
+    
+    .bg Img
+    {
+        /* display: flex; */
+        height: 100px;
+        width: 134px;
+        /* position: fixed; */
+        margin-top: 80px;
+        margin-left: 116px;
+    }
+    .adaTitle
+    {
+        margin-top:100 ;
+        margin-left: 120px;
+        margin-bottom: 200px;
+        color: rgb(0, 138, 255);        
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+
+
+    }
+    .Title
+    {
+        font-size: 48px;
+    }
+    .date
+    {
+        font-size: 32px;
+    }
+    .branche
+    {
+        font-size: 32px;
+    }
+    .color
+    {
+        color: white;
+    }
+
+.Name
+{
+    margin-left: 600px;
+    margin-top: 150px;
+    color: rgb(0, 138, 255);        
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.bgfooter
+{
+    background-color: black;
+}
+.footer
+{
+    display: flex;
+}
+.contactez p
+{
+    color: rgb(119, 119, 119);
+    font: 16px sans-serif;
+    letter-spacing: 0.08em;
+    padding: 8px 0px 0px 32px;
+    
+}
+
+.youcode
+{
+    padding: 24px 200px 0 350px;
+    color: rgb(119, 119, 119);
+    font:  15px sans-serif;
+    letter-spacing: 0.08em;
+}
+.suivez
+{
+    color:rgb(119, 119, 119);
+    font: 16px sans-serif;
+    letter-spacing: 0.08em;
+    padding: 8px  16px 8px 16px;
+}
+footer ul
+{   
+    display: flex;
+    list-style: none;
+    float: right;
+    bottom: 0;
+}
+
+footer ul li
+{
+    padding:8px;
+}
+
+
+
+    

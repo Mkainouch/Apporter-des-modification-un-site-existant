@@ -1,0 +1,362 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+
+nav ul{
+    top: 0%;
+    position: fixed;
+    list-style: none;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    z-index: 5;
+}
+
+.logo
+{
+    padding: 8px 60px 8px 60px;
+}
+
+nav ul li
+{
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom:16px ;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size:14px;
+    font-weight: bold;
+    line-height: 24px;
+}
+nav ul li:hover
+{
+ color: rgb(51, 122, 183);
+}
+
+
+nav ul li button
+{
+    height: 32px;
+    width: 160px;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(0, 138, 255);
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 12px 12px rgb(0, 138, 255, 0.3) ;
+
+}
+nav ul li button:hover
+{
+    background-color: white;
+    color: rgb(0, 138, 255);
+    box-shadow: 0px 0px 12px 12px rgb(0, 138, 255, 0) ;
+
+}
+
+.homebackground
+{   position: absolute;
+    top: 0%;
+    height: 80%;
+    width:100%;
+    background-image: url(../images/slide1.jpg);
+    background-size: cover;
+}
+
+.bg
+{
+    position: fixed;
+    top: 0%;
+    height: 100%;
+    width:100%;
+    background-image: url(../images/bgfound.png);
+    z-index: -100;
+} 
+
+.title{
+    margin-top: 15%;
+    margin-bottom: 8px;
+    margin-left: 3%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+.p1
+{
+    font-size: 42px;
+    margin-bottom: 8px;
+}
+
+.p2{
+    
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 16px;
+
+
+
+}
+.inscrisbtn{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(0, 138, 255,0);
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 12px 50px 12px 50px;
+
+}
+.inscrisbtn:hover
+{
+    background-color: white;
+    color:rgb(73, 97, 116) ;
+    border-color: white;
+
+}
+
+
+.découvrebtn
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(0, 138, 255);
+    border: 2px solid rgb(0, 138, 255);
+    border-radius: 30px;
+    padding: 12px 60px 12px 60px;
+    box-shadow: 0px 0px 12px 12px rgb(0, 138, 255, 0.3) ;
+}
+.découvrebtn:hover
+{
+    background-color: white;
+    color:rgb(73, 97, 116) ;
+    border-color: white;
+    box-shadow: 0px 0px 12px 12px rgb(0, 138, 255, 0) ;
+
+}
+
+.paragraph
+{
+    margin-top: 560px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 38px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+
+}
+
+.paragraph p
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.col
+{
+    column-count: 3;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.col p
+{
+    padding: 20px  24px 20px 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.col h3
+{
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(73, 97, 116) ;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 24px  24px 20px 24px;
+}
+.col1
+{
+    column-count: 2;
+    height: 600px;
+}
+.col1 h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32;
+    color: ivory;
+    text-align: center;
+    padding: 60px 0 30px 0;
+}
+
+.col1 p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16;
+    color: ivory;
+    text-align: justify;
+    padding: 0px 80px 128px 60;
+}
+.col1 h4
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16;
+    color: ivory;
+    text-align: center;
+    padding: 20px 0px 30px 0;
+}
+.bgd
+{
+  
+    background-color: rgb(0, 138, 255);
+
+}
+.bgsimplon
+{
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/simplon.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+
+}
+.bgcolorsimplon
+{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+.bgsimplon h4
+{   
+    position: absolute;
+    margin-left: 44%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color:  rgb(0, 138, 255);
+    margin-top: 210px;
+}
+.bgsimplon p
+{
+    position: absolute;
+    margin-left: 35%;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 60px;
+    margin-top: 240px;
+}
+.col3
+{
+    column-count: 3;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 50px 24px 50px 24px;
+    background-color: rgb(0, 138, 255);
+}
+.col3 h4
+{
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+.col3 p
+{
+    font-size: 24px;
+    padding: 16px;
+}
+.simplonparagraphe
+{
+    padding: 70px 60px 16px 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.sponsorisé
+{
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 200px;
+    
+}
+.ocplogo
+{
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 112px;
+
+}
+
+.col4
+{
+    column-count: 2;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.col4 button
+{
+    padding: 12px 240px 12px 240px;
+    margin-right: 48px;
+    color: white;
+    background-color: rgb(0, 138, 255);
+    border: rgb(0, 138, 255);
+    box-shadow: 0px 0px 12px 12px rgb(0, 138, 255, 0.2) ;
+    border-radius: 30px;
+}
+.col4 button:hover
+{
+    background-color:white ;
+    color:rgb(0, 138, 255) ;
+    box-shadow: 0px 8px 8px 8px rgba(2, 2, 2, 0.1) ;
+}
+.bgfooter
+{
+    background-color: black;
+}
+.footer
+{
+    display: flex;
+}
+.contactez p
+{
+    color: rgb(119, 119, 119);
+    font: 16px sans-serif;
+    letter-spacing: 0.08em;
+    padding: 8px 0px 0px 32px;
+    
+}
+
+.youcode
+{
+    padding: 24px 200px 0 350px;
+    color: rgb(119, 119, 119);
+    font:  15px sans-serif;
+    letter-spacing: 0.08em;
+}
+
+.suivez
+{
+    color:rgb(119, 119, 119);
+    font: 16px sans-serif;
+    letter-spacing: 0.08em;
+    padding: 8px  16px 8px 16px;
+}
+
+footer ul
+{   
+    display: flex;
+    list-style: none;
+    float: right;
+    bottom: 0;
+}
+
+footer ul li
+{
+    padding:8px;
+}

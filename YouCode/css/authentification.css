@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+    
+nav ul{
+    top: 0%;
+    position: fixed;
+    list-style: none;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    z-index: 5;
+}
+    
+.logo
+{
+    padding: 8px 60px 8px 60px;
+}
+    
+nav li
+{
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom:16px ;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size:14px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+nav li:hover
+{
+    color:rgb(51, 122, 183) ;
+}
+
+.authentPage
+{
+    height: 100%;
+    display: flex;
+        
+}
+
+.leftDiv
+{
+    width: 45%;
+    margin-top: 5.4%;
+    background-image: url(../images/ycd.png);
+    /* opacity: .7; */
+    background-size: cover;
+}
+
+.leftDiv img
+{
+    width: 20px;
+}
+    
+.rightDiv
+{
+    width: 60%;
+    margin-left: 48px;
+    margin-top: 8%;
+}
+
+.connexion
+{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.connexion h3
+{
+    color: rgb(0, 138, 255);
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 24px;
+    font-size: xx-large;
+
+
+}
+
+.connexion p
+{
+    color: rgb(51, 122, 183);
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 24px;
+}
+
+.connexion img
+{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}

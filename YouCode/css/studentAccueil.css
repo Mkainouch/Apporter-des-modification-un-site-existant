@@ -1,139 +1,162 @@
 *{
-    margin: 0%;
-    padding: 0%;
-    }
-    
-    nav ul{
-        top: 0%;
-        position: fixed;
-        list-style: none;
-        display: flex;
-        background-color: black;
-        width: 100%;
-        z-index: 5;
-    }
-    
-    .topNav li
-    {
-        padding-left: 30px;
-        padding-top: 30px;
-        padding-bottom:16px ;
-        font-family: 'Montserrat', sans-serif;
-        color: whitesmoke;
-        font-size:14px;
-        font-weight: bold;
-        line-height: 24px;
-    }
+margin: 0%;
+padding: 0%;
+}
+/* ---------------------------------------------START TOP NAVBAR--------------------------------------------------- */
+nav ul{
+    top: 0%;
+    position: fixed;
+    list-style: none;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    z-index: 5;
+}
 
-    .topNav li:hover
-    {
-        color:rgb(51, 122, 183) ;
-    }
-
-    .logo
-    {
-        padding: 8px 60px 8px 60px;
-    }
-    
-    .bg
-    {
-        height: 650px;
-        width: 1000px; 
-        background-image: url(../images/Untitled.png);
-        margin-top:80px;
-        /* margin-left: 20%; */
-        background-size: cover;
-        /* position: fixed; */
-        /* z-index: -10; */
-    }
-
-    .leftNav{
-        list-style: none;
-        margin-top: 60px;
-        height: 100%;
-        width: 20%;
-        background-color: rgb(0, 138, 255);
-    }
-    
-    .leftNav li
-    {
-        padding: 16 16 16 0;
-       
-    }
-    .leftNav a
-    {
-        text-decoration: none;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-
-    }
-    .leftNav li img
-    {
-        padding: 0 0 0 16;
-        padding-right: 16px;  
-    }
-    .imgProfil
-    {
-        display: flex;
-    }
-    .imgProfil p
-    {
-        padding-left: 16px;
-        padding-top:16px ;
-    }
-    
-    .bg Img
-    {
-        /* display: flex; */
-        height: 100px;
-        width: 134px;
-        /* position: fixed; */
-        margin-top: 80px;
-        margin-left: 116px;
-    }
-    .adaTitle
-    {
-        margin-top:100 ;
-        margin-left: 120px;
-        margin-bottom: 200px;
-        color: rgb(0, 138, 255);        
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-
-
-    }
-    .Title
-    {
-        font-size: 48px;
-    }
-    .date
-    {
-        font-size: 32px;
-    }
-    .branche
-    {
-        font-size: 32px;
-    }
-    .color
-    {
-        color: white;
-    }
-
-.Name
+nav li
 {
-    margin-left: 600px;
-    margin-top: 150px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom:16px ;
+}
+nav a
+{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size:14px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+nav li a:hover
+{
+    color:rgb(51, 122, 183) ;
+}
+
+.logo
+{
+    padding: 8px 60px 8px 60px;
+}
+.logo img
+    {
+        width: 180px;
+    }
+/* ---------------------------------------------END TOP NAVBAR--------------------------------------------------- */
+
+/* ---------------------------------------------START LEFT NAVBAR------------------------------------------------ */
+
+
+.leftNav{
+    position: fixed;
+    list-style: none;
+    margin-top: 3.5%;
+    height: 85%;
+    width: 20%;
+    background-color: rgb(0, 138, 255);
+    box-shadow:8px 8px 8px 8px rgb(0, 138, 255, .2);
+    opacity: 1;
+
+}
+
+.leftNav li
+{
+    padding: 8 16 16 0;
+}
+
+.leftNav a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.leftNav li img
+{
+    padding: 0 0 0 16;
+    padding-right: 16px;  
+}
+.imgProfil
+{
+    display: flex;
+}
+.imgProfil p
+{
+    padding-left: 42px;
+    padding-top:16px ;
+}
+
+/* ---------------------------------------------END LEFT NAVBAR------------------------------------------------ */
+
+.parent
+{
+    display: flex;
+}
+.child1
+{
+    width: 20%;
+    color: white;
+    visibility: hidden;
+}
+.child2
+{
+    height: 100%;
+    width: 100%; 
+    background-image: url(../images/Untitled.png);
+    margin-top:60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.adaImg
+{
+    /* display: flex; */
+    height: 100px;
+    width: 134px;
+    /* position: fixed; */
+    margin-top: 8%;
+    margin-left: 12%;
+}
+.adaTitle
+{
+    margin-top:14% ;
+    margin-left: 27.7%;
+    margin-bottom: 12%;
     color: rgb(0, 138, 255);        
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
-.bgfooter
+.Title
 {
-    background-color: black;
+    font-size: 48px;
 }
+.date
+{
+    font-size: 32px;
+}
+.branche
+{
+    font-size: 32px;
+}
+.color
+{
+    color: white;
+}
+
+.Name
+{
+    margin-left: 48%;
+    margin-top: 20%;
+    color: rgb(0, 138, 255);        
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
 .footer
 {
     display: flex;
+    background-color: black;
+
 }
 .contactez p
 {
@@ -141,7 +164,7 @@
     font: 16px sans-serif;
     letter-spacing: 0.08em;
     padding: 8px 0px 0px 32px;
-    
+
 }
 
 .youcode
@@ -173,4 +196,4 @@ footer ul li
 
 
 
-    
+

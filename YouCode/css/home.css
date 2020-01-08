@@ -2,6 +2,14 @@
 margin: 0%;
 padding: 0%;
 }
+.padding
+{
+    padding: 0 15% 0 15%;
+}
+.whitespace
+{
+    height: 140px;
+}
 
 nav ul{
     top: 0%;
@@ -18,18 +26,24 @@ nav ul{
     padding: 8px 60px 8px 60px;
 }
 
-nav ul li
+nav ul li 
 {
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom:16px ;
+    
+}
+nav a
+{
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: whitesmoke;
     font-size:14px;
     font-weight: bold;
     line-height: 24px;
+
 }
-nav ul li:hover
+nav ul li a:hover
 {
  color: rgb(51, 122, 183);
 }
@@ -58,7 +72,7 @@ nav ul li button:hover
 .homebackground
 {   position: absolute;
     top: 0%;
-    height: 80%;
+    height: 50%;
     width:100%;
     background-image: url(../images/slide1.jpg);
     background-size: cover;
@@ -75,7 +89,7 @@ nav ul li button:hover
 } 
 
 .title{
-    margin-top: 15%;
+    margin-top: 12%;
     margin-bottom: 8px;
     margin-left: 3%;
     font-family: 'Montserrat', sans-serif;
@@ -182,8 +196,8 @@ h1{
 }
 .col1
 {
-    column-count: 2;
-    height: 600px;
+    display: flex;
+    height: 500px;
 }
 .col1 h3
 {
@@ -210,9 +224,13 @@ h1{
     text-align: center;
     padding: 20px 0px 30px 0;
 }
+.imghack3
+{
+    width: 100%;
+}
 .bgd
 {
-  
+    width: 100%;
     background-color: rgb(0, 138, 255);
 
 }
@@ -287,22 +305,23 @@ h1{
 {
     text-align: center;
     padding-top: 16px;
-    padding-bottom: 112px;
+    /* padding-bottom: 112px; */
 
 }
 
 .col4
 {
-    column-count: 2;
+    display: flex;
     font-size: 32px;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    padding-bottom: 100px;
+    /* text-align: center; */
+    margin: 100px 20 100px 100;
+
 }
 .col4 button
 {
     padding: 12px 240px 12px 240px;
-    margin-right: 48px;
+    margin: 0 0 0 200px;
     color: white;
     background-color: rgb(0, 138, 255);
     border: rgb(0, 138, 255);
@@ -315,13 +334,20 @@ h1{
     color:rgb(0, 138, 255) ;
     box-shadow: 0px 8px 8px 8px rgba(2, 2, 2, 0.1) ;
 }
-.bgfooter
+footer
 {
     background-color: black;
+    display: flex;
+    width: 100%;
+
 }
-.footer
+/* .footer
 {
     display: flex;
+} */
+.contactez
+{
+    /* width: 90%; */
 }
 .contactez p
 {
@@ -334,7 +360,7 @@ h1{
 
 .youcode
 {
-    padding: 24px 200px 0 350px;
+    margin: 24px 30% 0 30% ;
     color: rgb(119, 119, 119);
     font:  15px sans-serif;
     letter-spacing: 0.08em;

@@ -2,6 +2,10 @@
     margin: 0%;
     padding: 0%;
     }
+.blankSpace
+{
+    height: 60px;
+}
     
     nav ul{
         top: 0%;
@@ -18,99 +22,127 @@
         padding-left: 30px;
         padding-top: 30px;
         padding-bottom:16px ;
-        font-family: 'Montserrat', sans-serif;
-        color: whitesmoke;
-        font-size:14px;
-        font-weight: bold;
-        line-height: 24px;
     }
 
-    nav li:hover
-    {
-        color:rgb(51, 122, 183) ;
-    }
+    nav a
+{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size:14px;
+    font-weight: bold;
+    line-height: 24px;
+}
 
-    .logo
-    {
-        padding: 8px 60px 8px 60px;
-    }
-    .bg
-    {
-        background-image: url(../images/youcodelogo.png);
-        /* background-size: cover; */
-        height: 90%;
-        width: 80%;
-        margin-top: 5%;
-        margin-left: 20%;
-        position: fixed;
-        opacity: 0.2;
-        z-index: -10;
-    }
+nav li a:hover
+{
+    color:rgb(51, 122, 183) ;
+}
 
-    .leftNav{
-        list-style: none;
-        margin-top: 60px;
-        /* height: 100%; */
-        width: 20%;
-        background-color: rgb(0, 138, 255);
-        opacity: 1;
+.logo
+{
+    padding: 8px 60px 8px 60px;
+}
+.logo img
+{
+    width: 180px;
+}
+.bg
+{
+    /* background-image: url(../images/youcodelogo.png); */
+    /* background-size: cover; */
+    height: 90%;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 20%;
+    position: fixed;
+    opacity: 0.2;
+    z-index: -10;
+}
 
-    }
-    
-    .leftNav li
-    {
-        padding: 8 16 16 0;
-    }
-    .leftNav a
-    {
-        text-decoration: none;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
+.leftNav{
+    position: fixed;
+    list-style: none;
+    margin-top: 3.5%;
+    height: 85%;
+    width: 20%;
+    background-color: rgb(0, 138, 255);
+    box-shadow:8px 8px 8px 8px rgb(0, 138, 255, .2);
+    opacity: 1;
 
-    }
-    .leftNav li img
-    {
-        padding: 0 0 0 16;
-        padding-right: 16px;
-    }
-    .imgProfil
-    {
-        display: flex;
-    }
-    .imgProfil p
-    {
-        padding-left: 16px;
-        padding-top:16px ;
-    }
+}
 
-    .imagebox
-    {
-        height: 100px;
-        width: 100px;
-        border-radius: 50px;
-        background-color:rgb(119, 119, 119);
-        margin-top: 100px;
-        margin-bottom: 24px;
-        margin-left: 24px;
-    }
-    .info
-    {
-        display: flex;
-        /* background-color: rgb(73, 97, 116, 0.3); */
-    }
-    .info div
-    {
-        padding: 48px;
-        font-size: 28px;
-        color: rgb(51, 122, 183);
-        font-family: 'Montserrat', sans-serif;
-        
-    }
-    .info p
-    {
-        padding: 8px;
-    }
+.leftNav li
+{
+    padding: 8 16 16 0;
+}
 
+.leftNav a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.leftNav li img
+{
+    padding: 0 0 0 16;
+    padding-right: 16px;  
+}
+
+
+.parent
+{
+    display: flex;
+}
+.child1
+{
+    width: 20%;
+    color: white;
+    visibility: hidden;
+}
+.child2
+{
+    width: 80%;
+    margin-top: 80px;
+    margin-left: 5%;
+}
+.imgProfil
+{
+    display: flex;
+}
+.imgProfil p
+{
+    padding-left: 16px;
+    padding-top:16px ;
+}
+
+.imagebox
+{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background-color:rgb(119, 119, 119);
+    margin-top: 100px;
+    margin-bottom: 24px;
+    margin-left: 5%;
+}
+.info
+{
+    display: flex;
+    /* background-color: rgb(73, 97, 116, 0.3); */
+}
+.info div
+{
+    padding: 48px;
+    font-size: 28px;
+    color: rgb(51, 122, 183);
+    font-family: 'Montserrat', sans-serif;
+}
+.info p
+{
+    padding: 8px;
+}
 
 .bgfooter
 {
@@ -129,32 +161,31 @@
         
 }
     
-    .youcode
-    {
-        padding: 24px 200px 0 350px;
-        color: rgb(119, 119, 119);
-        font:  15px sans-serif;
-        letter-spacing: 0.08em;
-    }
-    .suivez
-    {
-        color:rgb(119, 119, 119);
-        font: 16px sans-serif;
-        letter-spacing: 0.08em;
-        padding: 8px  16px 8px 16px;
-    }
-    footer ul
-    {   
-        display: flex;
-        list-style: none;
-        float: right;
-        bottom: 0;
-    }
-    
-    footer ul li
-    {
-        padding:8px;
-    }
-    
-    
-    
+.youcode
+{
+    padding: 24px 200px 0 350px;
+    color: rgb(119, 119, 119);
+    font:  15px sans-serif;
+    letter-spacing: 0.08em;
+}
+.suivez
+{
+    color:rgb(119, 119, 119);
+    font: 16px sans-serif;
+    letter-spacing: 0.08em;
+    padding: 8px  16px 8px 16px;
+}
+footer ul
+{   
+    display: flex;
+    list-style: none;
+    float: right;
+    bottom: 0;
+}
+
+footer ul li
+{
+    padding:8px;
+}
+
+

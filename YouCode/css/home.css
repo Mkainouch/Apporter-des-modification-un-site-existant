@@ -128,8 +128,6 @@ nav ul li button:hover
     border-color: white;
 
 }
-
-
 .découvrebtn
 {
     font-family: 'Montserrat', sans-serif;
@@ -345,10 +343,7 @@ footer
 {
     display: flex;
 } */
-.contactez
-{
-    /* width: 90%; */
-}
+
 .contactez p
 {
     color: rgb(119, 119, 119);

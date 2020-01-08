@@ -30,12 +30,6 @@
         z-index: 5;
     }
     
-    #myCheck
-    {
-        position: absolute;    
-        visibility: hidden;
-    }
-    
     .logo
     {
         padding: 12px 50px 8px 50px;
@@ -92,71 +86,6 @@
         color: rgb(0, 138, 255);
         box-shadow: 0px 0px 12px 12px rgb(0, 138, 255, 0) ;
     
-    }
-    @media(max-width:1415px){
-        nav ul{
-            padding: 0% !important;
-        }
-
-    }
-    
-    
-    @media(max-width:1200px){
-        .padding
-    {
-        padding: 0;
-    }
-      
-        #myCheck
-        {
-            visibility: visible;
-            top: 0;
-            margin-top: 3%;
-            margin-left: 3%;
-            z-index: 10;
-            position: fixed;
-        }
-        nav ul
-        {
-            visibility: collapse;
-            display: block;
-            position: fixed;
-            width: 40%;
-            z-index: 7;
-        }
-    
-        #myCheck:checked ~nav ul
-        {
-            visibility: visible;
-        }
-    
-        nav ul li 
-        {
-            text-align: left;
-            padding-left: 16px;
-            padding-top: 16px;
-            padding-bottom:16px ;
-            font-size:12px;
-            font-weight: bold;
-            line-height: 24px;
-        }
-    
-    
-        .logo
-        {
-            position: fixed;
-            text-align: center;
-            background-color: black;
-            width: 100%;
-            visibility: visible;
-        }
-    
-        nav ul li button
-        {
-            height: 20px;
-            width: 80px;
-            font-size: 12px;
-        }
     }
     
     /* ---------------------------------------------end navbar-------------------------------------------------------- */
@@ -238,47 +167,6 @@
     
     }
 
-    @media(max-width:767px)
-    {
-        .homebackground{
-            display: block;
-            position: static;
-            margin: 0;
-        }
-        .title
-        {
-            display: block;
-            text-align: center;
-            padding-top: 25%;
-            margin:0;
-        }
-        .p1
-        {
-            font-size: 24px;
-        }
-        .p2
-        {
-            font-size: 16px;
-            padding-top: 24px;
-        }
-        .inscrisbtn
-        {
-            display: block;
-            text-align: center;
-            font-size: 16px;
-            padding: 8px 30px 8px 30px;
-            margin: auto;
-        }
-        .découvrebtn
-        {
-            display: block;
-            text-align: center;
-            font-size: 16px;
-            padding: 8px 30px 8px 30px;
-            margin: 16 auto 8;
-        }
-    }
-    
     
     /* ---------------------------------------------end header-------------------------------------------------------  */
     /* --------------------------------------------start section1----------------------------------------------------- */
@@ -302,16 +190,6 @@
     
     }
     
-    @media(max-width:767px){
-        
-        .paragraph
-        {
-            margin-top: 60px;
-    
-    
-        }
-        
-    }
         /*------------------------ end section1 ---------------------------*/
         /*------------------------ start siction2 --------------------------*/
         .paragraph1 h2{
@@ -332,18 +210,8 @@
         
         }
         
-        @media(max-width:767px){
-            
-            .paragraph
-            {
-                margin-top: 60px;
         
-        
-            }
-            
-        }
-    
-        .col1
+    .col1
     {
         display: flex;   
     }
@@ -388,34 +256,7 @@
         box-shadow: 0px 8px 8px 8px rgba(2, 2, 2, 0.1) ;
     }
     
-    @media(max-width:767px)
-    {
-        
-        .col1
-        {
-            display: block;
-        }
-       
-        .col3
-        {
-            display: block;
-            font-size: 24px;
-            text-align: center;
-    
-        }
-        .col3 div
-        {
-            width: 100%;
-        }
-    
-        .col3 button
-    {
-        padding: 8px 20% 8px 20%;
-        font-size: 12px;
-        margin: 0%;
-        margin-top: 24px;
-    }
-    }
+   
      /* --------------------------end siction2------------------------------------ */
     
     /* --------------------------------start footer----------------------------- */
@@ -426,14 +267,7 @@
         width: 100%;
     
     }
-    /* .footer
-    {
-        display: flex;
-    } */
-    .contactez
-    {
-        /* width: 90%; */
-    }
+
     .contactez p
     {
         color: rgb(119, 119, 119);
@@ -472,33 +306,6 @@
         padding:8px;
     }
     
-    @media(max-width:1200px){
-        footer
-        {
-            display: block;
-        }
-        .contactez 
-        {
-            padding: 0;
-            text-align: center;
-        }
-        .youcode 
-        {
-            padding: 0;
-            text-align: center;
-        }
-        .suivez
-        {
-            padding: 0;
-            text-align: center;
-        }
-        footer ul
-        {   
-            float:none;
-            justify-content: center;
-        }
-    
-    }
     /* ------------------------------end footer----------------------------------- */
     
     

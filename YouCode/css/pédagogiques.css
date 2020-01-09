@@ -31,12 +31,6 @@ nav ul{
     z-index: 5;
 }
 
-#myCheck
-{
-    position: absolute;    
-    visibility: hidden;
-}
-
 .logo
 {
     padding: 12px 50px 8px 50px;

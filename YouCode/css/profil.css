@@ -144,48 +144,48 @@ nav li a:hover
     padding: 8px;
 }
 
-.bgfooter
-{
-    background-color: black;
-}
-.footer
-{
-    display: flex;
-}
-.contactez p
-{
-    color: rgb(119, 119, 119);
-    font: 16px sans-serif;
-    letter-spacing: 0.08em;
-    padding: 8px 0px 0px 32px;
-        
-}
+footer
+    {
+        background-color: black;
+        display: flex;
+        width: 100%;
     
-.youcode
-{
-    padding: 24px 200px 0 350px;
-    color: rgb(119, 119, 119);
-    font:  15px sans-serif;
-    letter-spacing: 0.08em;
-}
-.suivez
-{
-    color:rgb(119, 119, 119);
-    font: 16px sans-serif;
-    letter-spacing: 0.08em;
-    padding: 8px  16px 8px 16px;
-}
-footer ul
-{   
-    display: flex;
-    list-style: none;
-    float: right;
-    bottom: 0;
-}
+    }
 
-footer ul li
-{
-    padding:8px;
-}
-
-
+    .contactez p
+    {
+        color: rgb(119, 119, 119);
+        font: 16px sans-serif;
+        letter-spacing: 0.08em;
+        padding: 8px 0px 0px 32px;
+        
+    }
+    
+    .youcode
+    {
+        margin: 24px 30% 0 30% ;
+        color: rgb(119, 119, 119);
+        font:  15px sans-serif;
+        letter-spacing: 0.08em;
+    }
+    
+    .suivez
+    {
+        color:rgb(119, 119, 119);
+        font: 16px sans-serif;
+        letter-spacing: 0.08em;
+        padding: 8px  16px 8px 16px;
+    }
+    
+    footer ul
+    {   
+        display: flex;
+        list-style: none;
+        float: right;
+        bottom: 0;
+    }
+    
+    footer ul li
+    {
+        padding:8px;
+    }
